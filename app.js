@@ -51,8 +51,10 @@ app.use(cors());
 // JSON API
 app.get('/article', api.article);
 app.get('/articlelist', api.articlelist);
+app.get('/archivelist', api.archivelist);
+app.get('/searchlist', api.searchlist);
+app.get('/articletag', api.articletag);
 app.get('/postcategory', api.postcategory);
-app.get('/posttag', api.posttag);
 
 // 404错误处理
 app.use(function(req, res, next) {
