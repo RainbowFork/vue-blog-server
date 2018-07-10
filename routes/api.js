@@ -287,7 +287,45 @@ exports.article = function(req, res) {
   }
 };
 
-
+/*
+ * 关于页数据
+ */
+exports.about = function(req, res) {
+  // 文件夹路径
+  var fileDirectory = "about/";
+  var articleData = {
+    'articleId': 0,
+    'articleTitle': '关于'
+  };
+  var isArticleExist = false;
+  // 判断文件夹路径是否存在
+  if (fs.existsSync(fileDirectory)) {
+    fs.readdir(fileDirectory, function(err, files) {
+      if (err) {
+        console.log(err);
+        return;
+      }
+      files.forEach(function(filename, index) {
+        if (filename === 'about.md') {
+          isArticleExist = true;
+          fs.readFile(fileDirectory + 'about.md', function(err, data) {
+            if (err) throw err;
+            articleData.articleContent = data.toString();
+            var result = {};
+            result.data = articleData
+            result.ret = true;
+            res.send(result);
+          });
+        }
+      });
+      if (!isArticleExist) {
+        res.status(404).send('Sorry cant find that!');
+      }
+    });
+  } else {
+    console.log(fileDirectory + "  Not Found!");
+  }
+};
 
 /*
  * 文章分类

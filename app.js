@@ -50,6 +50,7 @@ app.use(cors());
 
 // JSON API
 app.get('/article', api.article);
+app.get('/about', api.about);
 app.get('/articlelist', api.articlelist);
 app.get('/archivelist', api.archivelist);
 app.get('/searchlist', api.searchlist);
