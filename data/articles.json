@@ -241,5 +241,44 @@
         "articleCategoryName": "ECMAScript6"
       }
     ]
+  },
+  {
+    "articleId": "11",
+    "articleTitle": "手把手教你用原生JavaScript造轮子（2）——轮播图",
+    "articleDate": "2018-08-10",
+    "articleTags": [
+			{
+	      "articleTagName": "轮子"
+      },
+      {
+	      "articleTagName": "JavaScript"
+      },
+      {
+	      "articleTagName": "轮播图"
+      },
+      {
+	      "articleTagName": "Vue"
+      },
+      {
+	      "articleTagName": "Webpack"
+      },
+      {
+	      "articleTagName": "ECMAScript6"
+      }
+    ],
+    "articleCategories": [
+      {
+        "articleCategoryName": "JavaScript"
+      },
+      {
+        "articleCategoryName": "Vue"
+      },
+      {
+        "articleCategoryName": "Webpack"
+      },
+      {
+        "articleCategoryName": "ECMAScript6"
+      }
+    ]
   }
 ]
