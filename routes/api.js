@@ -372,3 +372,21 @@ exports.articletag = function(req, res) {
   result.ret = true;
   res.send(result);
 };
+
+/*
+ * 图书数据
+ */
+exports.booklist = function(req, res) {
+  const booksDatas = Object.assign([], require('../data/books.json'));
+  const result = {};
+  result.data = booksDatas;
+  result.ret = true;
+  res.send(result);
+};
+
+/*
+ * 相册数据
+ */
+exports.album = function(req, res) {
+
+};
