@@ -57,6 +57,7 @@ app.get('/searchlist', api.searchlist);
 app.get('/articletag', api.articletag);
 app.get('/postcategory', api.postcategory);
 app.get('/booklist', api.booklist);
+app.get('/album', api.album);
 
 // 404错误处理
 app.use(function(req, res, next) {

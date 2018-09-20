@@ -388,5 +388,9 @@ exports.booklist = function(req, res) {
  * 相册数据
  */
 exports.album = function(req, res) {
-
+  const albumDatas = Object.assign({}, require('../data/album.json'));
+  const result = {};
+  result.data = albumDatas;
+  result.ret = true;
+  res.send(result);
 };

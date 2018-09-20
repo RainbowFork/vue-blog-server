@@ -1,0 +1,34 @@
+{
+    "albumTitle": "相册",
+    "albumArchives": [
+        {
+            "archiveTime": "2018-9",
+            "archivePhotos": [
+                {
+                    "photoWidth": 1024,
+                    "photoHeight": 768,
+                    "photoSrc": "https://i.loli.net/2018/09/20/5ba30ea7c11b9.png",
+                    "photoMSrc": "https://i.loli.net/2018/09/20/5ba30f5df412c.png",
+                    "photoTime": "2018-9-20 11:24",
+                    "photoInfo": "测试"
+                },
+                {
+                    "photoWidth": 1024,
+                    "photoHeight": 768,
+                    "photoSrc": "https://i.loli.net/2018/09/20/5ba30ea7c11b9.png",
+                    "photoMSrc": "https://i.loli.net/2018/09/20/5ba30f5df412c.png",
+                    "photoTime": "2018-9-20 11:24",
+                    "photoInfo": "测试"
+                },
+                {
+                    "photoWidth": 1024,
+                    "photoHeight": 768,
+                    "photoSrc": "https://i.loli.net/2018/09/20/5ba30ea7c11b9.png",
+                    "photoMSrc": "https://i.loli.net/2018/09/20/5ba30f5df412c.png",
+                    "photoTime": "2018-9-20 11:24",
+                    "photoInfo": "测试"
+                }
+            ]
+        }
+    ]
+}

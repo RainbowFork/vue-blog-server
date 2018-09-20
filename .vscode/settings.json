@@ -1,0 +1,8 @@
+{
+    "workbench.editor.closeEmptyGroups": false,
+    "files.associations": {
+        "*.js": "html",
+        "*.vue": "html"
+    },
+    "emmet.triggerExpansionOnTab": true
+}
