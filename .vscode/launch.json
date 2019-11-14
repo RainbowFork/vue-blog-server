@@ -1,0 +1,20 @@
+{
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "vue-blog-server",
+      "program": "${workspaceFolder}\\bin\\www",
+      // skipFiles 就是忽略我们不关心的文件 <node_internals> 用来忽略 Node.js 核心模块
+      // 这样在单步调试时就不会进入到 node_modules和node核心模块里
+      "skipFiles": [
+        "${workspaceFolder}/node_modules/**/*.js",
+        "<node_internals>/**/*.js"
+      ]
+    }
+  ]
+}

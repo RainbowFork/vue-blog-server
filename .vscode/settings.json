@@ -4,5 +4,6 @@
         "*.js": "javascript",
         "*.vue": "html"
     },
-    "emmet.triggerExpansionOnTab": true
+    "emmet.triggerExpansionOnTab": true,
+    "debug.node.autoAttach": "on"
 }
